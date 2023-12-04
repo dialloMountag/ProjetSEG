@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CreateLocationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/createLocationTitle"
+        android:textSize="40dp"
+        android:text="@string/create_location"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextLocationName"
+        android:hint="Please enter the name of the location"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextLocationAddress"
+        android:hint="Please enter the address of the location"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Select services offered:"
+        android:layout_weight="1"
+        />
+
+    <ListView
+        android:divider="@color/black"
+        android:dividerHeight="2dp"
+        android:listSelector="@color/greenish"
+        android:choiceMode="multipleChoice"
+        android:id="@+id/listViewServices"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/textViewSelectServices"
+        android:layout_weight="1"></ListView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextOpeningTime"
+        android:hint="Choose opening time"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextClosingTime"
+        android:hint="Choose closing time"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCreateLocation"
+        android:text="@string/create_location"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        />
+
+
+</LinearLayout>

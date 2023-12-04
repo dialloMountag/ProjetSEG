@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+
+    <TextView
+        android:id="@+id/pageName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/admin_interface"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/manageServices"
+        android:text="Manage Services"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/pageName"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/manageAccounts"
+        android:text="Manage Accounts"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/manageServices"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchBtn"
+        android:text="@string/logout"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/manageAccounts"
+        android:layout_marginTop="50dp"/>
+
+</RelativeLayout>

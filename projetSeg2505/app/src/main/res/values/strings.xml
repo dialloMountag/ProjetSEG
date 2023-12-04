@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">projetSeg2505</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="employee">Employee</string>
+    <string name="client">Client</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="logout">Logout</string>
+    <string name="client_interface">Client Interface</string>
+    <string name="employee_interface">Employee Interface</string>
+    <string name="username">username</string>
+    <string name="hello_user">Hello user!</string>
+    <string name="admin_interface">Admin Interface</string>
+    <string name="manage_location_txt">Manage Location</string>
+    <string name="manage_location" />
+    <string name="create_location">Create Location</string>
+    <string name="requestTitle">Requests</string>
+    <string name="update_location">Update Location</string>
+    <string name="enter_address">Enter City/Address</string>
+    <string name="enter_time">Enter Working Hours (HH:MM)</string>
+    <string name="enter_service">Enter Services</string>
+    <string name="searchByLocation">City of location</string>
+    <string name="searchCurrentlyOpen">Currently open</string>
+    <string name="searchByServices">Services Offered</string>
+    <string name="search">Search</string>
+    <string name="select_filter">Select Filter</string>
+    <!-- Search filters -->
+    <string-array name="search_filters">
+        <item>By Address</item>
+        <item>By Working Hours</item>
+        <item>By Offered Services</item>
+    </string-array>
+</resources>
